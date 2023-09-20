@@ -15,11 +15,11 @@ cd ./oracle19cserver
 
 !!! 💡 Move the LINUX.X64_193000_db_home.zip file into the mariadbserver folder.
 
-vi ./mariadb_make.sh
+vi ./oracle19c_make.sh
 (line 3) Change for ORACLE_DOCKER_VOLUME_DIR. This is VOLUME Directory.
 (line 4) Change for SYS_PASS.
 
-sh ./mariadb_make.sh
+sh ./oracle19c_make.sh
 (y : install / n : cancel)
 
 ```
