@@ -13,7 +13,7 @@ git clone https://github.com/Matin-dans-sage/oracle19cserver.git
 
 cd ./oracle19cserver
 
-!!! 💡 Move the LINUX.X64_193000_db_home.zip file into the mariadbserver folder.
+!!! 💡 Move the LINUX.X64_193000_db_home.zip file into the ./oracle19cserver folder.
 
 vi ./oracle19c_make.sh
 (line 3) Change for ORACLE_DOCKER_VOLUME_DIR. This is VOLUME Directory.
